@@ -5,7 +5,7 @@ import { mdiMinus, mdiPlus } from "@mdi/js";
 import Icon from "../../../_components/Icon";
 import Link from "next/link";
 import { getButtonColor } from "../../../_lib/colors";
-import AsideMenuList from "./List";
+import { AsideMenuList } from "./List";
 import { MenuAsideItem } from "../../../_interfaces";
 import { usePathname } from "next/navigation";
 

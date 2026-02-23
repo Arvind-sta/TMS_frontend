@@ -1,8 +1,9 @@
+"use client";
 import React from "react";
 import { mdiLogout, mdiClose } from "@mdi/js";
 import Icon from "../../../_components/Icon";
 import AsideMenuItem from "./Item";
-import AsideMenuList from "./List";
+import { AsideMenuList } from "./List";
 import { MenuAsideItem } from "../../../_interfaces";
 
 type Props = {
